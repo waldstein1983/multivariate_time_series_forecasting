@@ -28,7 +28,8 @@ import pandas as pd
 import mxnet as mx
 import argparse
 import logging
-import metrics
+# import metrics
+from src import metrics
 
 logging.basicConfig(level=logging.DEBUG)
 
